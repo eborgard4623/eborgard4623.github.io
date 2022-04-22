@@ -1,0 +1,92 @@
+body {
+  background-color: #120c13;
+  min-height: 100%;
+  font-family: "Verdana", sans-serif;
+  /* color: #292d3d; */
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #dbdde6;
+  padding-bottom: 10px;
+  border-bottom: 5px dashed #e18cb2;
+}
+
+#legend {
+  font-size: 0.7em;
+  letter-spacing: 0.1;
+  fill: white;
+}
+
+#legend_entry {
+  color: white;
+}
+
+.map {
+  padding: 20px;
+  width: 75%;
+  margin: 0 auto;
+
+  /* background-color: #321a22; */
+  /* border: 1px solid #252729; */
+  /* box-shadow: 1px 1px 15px #000000; */
+  /* position: relative; */
+  /* left: 50%; */
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+div.tooltip {
+  position: absolute;
+  padding: 7px;
+  font-size: 0.8em;
+  pointer-events: none;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.background {
+  fill: transparent;
+  pointer-events: all;
+}
+
+.world {
+  transform-origin: center;
+}
+
+#data-exp h2 {
+  /* position: absolute; */
+  font-family: sculpin, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  color: #dbdde6;
+  margin-top: -120px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border-top: 5px dotted #82668e;
+}
+#disclosure {
+  font-family:  sans-seri;
+  font-size: 20px;
+  font-weight: 300;
+  color: White;
+  margin-left: 150px;
+}
+
+#links {
+  font-family:  sans-seri;
+  font-size: 20px;
+  font-weight: 300;
+  color: White;
+  margin-left: 150px;
+}
